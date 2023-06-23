@@ -1,6 +1,6 @@
-## End To End ML Project
+## End To End ML Project: Diamond Price Prediction
 
-## Diamond Price Prediction
+
 
 ### created a environment
 
