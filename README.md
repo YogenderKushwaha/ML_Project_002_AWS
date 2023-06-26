@@ -1,6 +1,6 @@
 ## End To End ML Project: Diamond Price Prediction
 
-## [Click to Open](http://diamonpricepredictionproject-env.eba-amvmjmgc.us-east-1.elasticbeanstalk.com/predict)
+## [Click to Open](http://diamonpricepredictionproject-env.eba-amvmjmgc.us-east-1.elasticbeanstalk.com)
 
 
 ### created a environment
