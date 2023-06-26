@@ -2,6 +2,8 @@
 
 ## Deployed on AWS Elastic Beanstalk with AWS Code Pipeline
 
+## [Click to Open](https://diamondpricepredictionapp.azurewebsites.net/)
+
 
 ### created a environment
 
