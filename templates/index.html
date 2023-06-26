@@ -1,1 +1,149 @@
-<h1> Welcome To ML Project 001 - Diamond Price Prediction </h>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Nunito Sans', sans-serif;
+        }
+
+        .main-container {
+            display: flex;
+            width: 80%;
+            height: 100%;
+            border: 2px solid black;
+            border-radius: 50px;
+            overflow: hidden;
+        }
+
+        .img-side {
+            width: 60%;
+            overflow: hidden;
+            background-color: #5b5656;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .content-side {
+            width: 40%;
+            display: flex;
+            height: 93vh;
+            flex-direction: column;
+            background-color: ;
+        }
+
+        .heading {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            line-height: 0;
+            color: #5A5A5A;
+            font-size: 25px;
+            
+        }
+
+        label {
+            font-weight: bolder;
+        
+            
+
+        }
+
+        .container {
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+
+        .form-group {
+            padding: 10px;
+            width: 300px;
+            display: flex;
+            justify-content: space-between;
+            color: #5b5656;
+        }
+
+        .form-group input {
+            border: none;
+            border-bottom: 1px solid gray;
+        }
+
+        .btn {
+            text-align: center;
+        }
+
+        .btn input {
+            border-radius: 12px;
+            width: 200px;
+            height: 30px;
+            margin-top: 15px;
+            background: linear-gradient(rgba(222, 113, 177, 255) 0%, rgba(159, 126, 197, 255), rgba(77, 143, 222, 255) 100%);
+            cursor: pointer;
+            color: #5b5656;
+            background: white;
+            border: solid #5b5656 1px;
+            cursor: pointer;
+        }
+
+        .btn :hover {
+            font-weight: bolder;
+            color: white;
+            background: linear-gradient(90deg, rgba(11, 4, 65, 1) 0%, rgba(11, 57, 70, 1) 57%, rgba(78, 133, 154, 1) 100%);
+        }
+
+        .form-group :focus {
+            outline-style: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="main-container">
+
+        <div class="img-side">
+            <img src="https://c4.wallpaperflare.com/wallpaper/408/466/326/diamond-pack-1080p-hd-wallpaper-preview.jpg" />
+        </div>
+
+        <div class="content-side">
+            <div class="heading">
+                <p></p>
+                <p></p>
+                <h3><b>DIAMOND PRICE PREDICTION</b></h3>
+                
+                <p>Click next to fill the response</p>
+            </div>
+            <div class="container">
+
+                <form action="{{url_for('predict_datapoint')}}" method="GET">
+
+
+
+                    <div style="clear:both;"></div>
+                    <div class="btn">
+                        <input type="submit" value="Next">
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
