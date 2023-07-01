@@ -1,4 +1,5 @@
-## End To End ML Project: Diamond Price Prediction 
+# End To End ML Project: Diamond Price Prediction 
+![Python 3.8](https://img.shields.io/badge/Python-3.8-brightgreen.svg) 
 
 ## Deployed on AWS Elastic Beanstalk with AWS Code Pipeline
 
