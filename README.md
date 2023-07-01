@@ -1,5 +1,5 @@
 # End To End ML Project: Diamond Price Prediction 
-![Python](https://img.shields.io/badge/Python-3.8-brightgreen.svg) ![AWS CodePipeline](https://img.shields.io/badge/AWS-CodePipeline-blue) ![AWS Elastic](https://img.shields.io/badge/AWS-Elastic_Beanstalk-orange) ![Flask](https://img.shields.io/badge/-Flask-#C2DFFF)
+![Python](https://img.shields.io/badge/Python-3.8-brightgreen.svg) ![AWS CodePipeline](https://img.shields.io/badge/AWS-CodePipeline-blue) ![AWS Elastic](https://img.shields.io/badge/AWS-Elastic_Beanstalk-orange) ![Flask](https://img.shields.io/badge/Flask-Flask-#C2DFFF)
 
 ## Deployed on AWS Elastic Beanstalk with AWS Code Pipeline
 
