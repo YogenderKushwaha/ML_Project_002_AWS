@@ -3,7 +3,7 @@
 
 ## Deployed on AWS Elastic Beanstalk with AWS Code Pipeline
 
-## [Click to Open](http://diamonpricepredictionproject-env.eba-amvmjmgc.us-east-1.elasticbeanstalk.com/)
+## [Click to Open 🔗](http://diamonpricepredictionproject-env.eba-amvmjmgc.us-east-1.elasticbeanstalk.com/)
 
 
 ### created a environment
